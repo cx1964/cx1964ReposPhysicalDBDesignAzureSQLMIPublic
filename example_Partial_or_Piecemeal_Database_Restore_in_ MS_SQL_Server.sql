@@ -2,6 +2,10 @@
 -- Function: Partial or Piecemeal Database Restore in MS SQL Server
 -- Doc: https://sqlwizard.blog/2020/03/09/partial-or-piecemeal-database-restore-in-ms-sql-server/
 
+-- Letop
+-- Azure SQL managed instance ondersteunt geen databases die gebruik maken van file groups
+
+
 -- Problem Statement:
 -- These days data is growing rapidly and maintaining its availability as per defined RTO & RPO has become
 -- biggest challenge for a DBA. This blog post will help you to design the recovery of such database.
